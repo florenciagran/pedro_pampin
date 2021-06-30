@@ -1,0 +1,42 @@
+.gigsContainer {
+
+    background: linear-gradient(to bottom left, black 0%, black 70%, white 100%);
+    height: 100%;
+    width:12%;
+    transition:width 2s;
+
+    &:hover {
+        width:80%;
+
+    }
+
+    .gigs {font-family: 'Staatliches', cursive, sans-serif;
+        font-size: 4.375vw;  
+        margin-top: 2vw;
+        color:white;
+        font-weight: normal;
+        text-decoration: none;
+        font-style:oblique; 
+    }
+}
+
+.bioContainer {
+
+    background: linear-gradient(to bottom left, black 0%, black 70%, white 100%);
+    height: 100%;
+    width:12%;
+    transition:width 2s;
+
+    &:hover {
+        width:80%;
+    }
+
+    .bio {font-family: 'Staatliches', cursive, sans-serif;
+        font-size: 4.375vw;  
+        margin-top: 2vw;
+        color:white;
+        font-weight: normal;
+        text-decoration: none;
+        font-style:oblique; 
+    }
+}

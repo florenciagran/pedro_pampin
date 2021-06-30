@@ -1,0 +1,225 @@
+/*Reseteo de estilos*/
+@import url("https://fonts.googleapis.com/css2?family=Staatliches");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 0vw 5.083vw 0.083vw;
+  position: relative;
+  transform: skew(-10deg, 0deg);
+  list-style: none;
+}
+nav ul li:hover {
+  background-color: white;
+  color: salmon;
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul li:active {
+  background-color: black;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Staatliches", cursive, sans-serif;
+  font-size: 4.5vw;
+  font-style: oblique;
+  font-weight: normal;
+  text-transform: none;
+  line-height: normal;
+  text-decoration: none;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+nav ul li .pseudo:hover {
+  color: black;
+}
+nav ul li ul {
+  position: absolute;
+  display: none;
+}
+nav ul li ul li {
+  display: block;
+  background-color: white;
+  transform: translate(-30px, 0);
+  list-style: none;
+}
+nav ul li ul .liMore {
+  padding: 0px;
+}
+nav ul li ul .liMore .more {
+  color: #0e0d0d;
+  text-decoration: none;
+  padding: 0 1.563vw 0vw;
+  font-size: 2vw;
+}
+nav ul .pcWidthHome {
+  width: 20%;
+}
+nav ul .pcWidthHome a .pcHome {
+  width: 60%;
+}
+nav .pcWidth {
+  width: 10%;
+}
+nav .pcWidth a .pc {
+  width: 60%;
+  position: relative;
+  top: 15px;
+}
+nav .pcWidthGigs {
+  width: 20%;
+}
+nav .pcWidthGigs a .pcGigs {
+  width: 60%;
+}
+
+.gigsContainer {
+  background: linear-gradient(to bottom left, black 0%, black 70%, white 100%);
+  height: 100%;
+  width: 12%;
+  transition: width 2s;
+}
+.gigsContainer:hover {
+  width: 80%;
+}
+.gigsContainer .gigs {
+  font-family: "Staatliches", cursive, sans-serif;
+  font-size: 4.375vw;
+  margin-top: 2vw;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+.bioContainer {
+  background: linear-gradient(to bottom left, black 0%, black 70%, white 100%);
+  height: 100%;
+  width: 12%;
+  transition: width 2s;
+}
+.bioContainer:hover {
+  width: 80%;
+}
+.bioContainer .bio {
+  font-family: "Staatliches", cursive, sans-serif;
+  font-size: 4.375vw;
+  margin-top: 2vw;
+  color: white;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: oblique;
+}
+
+.parrafosFlex {
+  position: relative;
+  text-align: justify;
+  text-align: center;
+  flex-basis: 25%;
+}
+.parrafosFlex .parrafoIndex {
+  color: white;
+  font-size: 1.25vw;
+  font-family: "Roboto Mono", monospace;
+  padding: 1.042vw 1.042vw;
+  position: relative;
+  top: 25%;
+}
+
+.padreFlex {
+  display: flex;
+  flex-direction: column;
+}
+.padreFlex .fotoIndex2 {
+  width: 100%;
+  object-fit: cover;
+}
+
+.aboutFlex {
+  display: flex;
+  flex-direction: row;
+}
+.aboutFlex .fotoBio {
+  width: 55%;
+  height: 100%;
+}
+.aboutFlex .parrafoAbout {
+  color: white;
+  font-size: 1.25vw;
+  font-family: "Roboto Mono", monospace;
+  text-align: left;
+  padding: 3.125vw;
+  width: 30%;
+  position: relative;
+  left: 5%;
+}
+
+.videoTaller {
+  position: absolute;
+  left: 15%;
+  align-content: center;
+}
+
+.parrafoWorks {
+  color: white;
+  font-size: 1.25vw;
+  font-family: "Nunito Sans", sans-serif;
+  text-align: justify;
+  position: relative;
+  left: 25%;
+  width: 50%;
+}
+
+.redesFlex {
+  display: flex;
+  justify-content: flex-end;
+}
+.redesFlex a .mail {
+  width: 50px;
+}
+.redesFlex a .ig {
+  width: 50px;
+}
+.redesFlex a .fb {
+  width: 50px;
+}
+.redesFlex a .wp {
+  width: 50px;
+}
+
+.redesSociales {
+  padding: 80px;
+  border: 2px solid whitesmoke;
+}
+.redesSociales .mailContact {
+  position: relative;
+  left: 550px;
+}
+.redesSociales .igContact {
+  position: relative;
+  left: 550px;
+}
+.redesSociales .fbContact {
+  position: relative;
+  left: 550px;
+}
+.redesSociales .wpContact {
+  position: relative;
+  left: 550px;
+}
+
+/*# sourceMappingURL=style.css.map */
