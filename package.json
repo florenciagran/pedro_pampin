@@ -12,5 +12,13 @@
     "nodemon": "^2.0.9"
   },
   "dependencies": {},
-  "description": ""
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florenciagran/pedropampin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/florenciagran/pedropampin/issues"
+  },
+  "homepage": "https://github.com/florenciagran/pedropampin#readme"
 }
