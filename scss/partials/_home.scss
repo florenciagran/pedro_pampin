@@ -1,18 +1,42 @@
 .parrafosFlex {
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
     
-    position: relative;
-    text-align: justify;
-    text-align: center;
-    flex-basis:25%;
+    justify-self: center;
+    margin:0% 25%;
+    
+   
+    
 
     .parrafoIndex {
+        
         color: white;
         font-size: 1.250vw;  
         font-family:'Roboto Mono', monospace;
         padding: 1.042vw 1.042vw;
-        position: relative;
         top:25%;
+              
+        animation: type 2s steps(57);
+        overflow:hidden;
+        white-space: nowrap;
+          
+
+}
+
+@keyframes type {
+    0% {
+        width:0ch;
+        justify-self:center;
     }
+
+    100% {
+        width: 57ch;
+        justify-self:center;
+    }
+}
+
+    
 }
 
 
@@ -26,5 +50,32 @@
         object-fit: cover;
     }
 }
+
+
+.container-link-fotografa {
+ 
+    display: flex;
+    justify-content: center;
+
+    p {
+        font-family:'Roboto Mono', monospace;
+        font-size: 1vw;
+        color: white;
+    }
+  }
+
+  .link-fotografa {
+    font-family:'Roboto Mono', monospace;
+    font-size: 1vw;
+    color: white;
+    font-weight: bold;
+    
+    &:hover {
+        color:violet;
+    }
+}
+
+
+
 
 

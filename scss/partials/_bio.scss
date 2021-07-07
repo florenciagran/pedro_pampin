@@ -1,23 +1,63 @@
-.aboutFlex {
+.BioFlex {
     display: flex;
     flex-direction: row;
 
     .fotoBio {
-        width:55%;
-        height: 100%;
+        width: 45%;
+        
     }
 
-    .parrafoAbout {
-        color: white;
-        font-size: 1.250vw;  
-        font-family: 'Roboto Mono', monospace;
-        text-align:left;
-        padding: 3.125vw;
-        width: 30%;
-        position: relative;
-        left: 5%;
+    .parrafoBioContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        
+        
+        
+
+        .parrafoBio {
+            color: white;
+            font-size: 1vw;  
+            font-family: 'Roboto Mono', monospace;
+            text-align: justify;
+            padding: 0.125vw;
+            width: 45%;
+            position: relative;
+            left: 5%;
+            text-justify:inter-cluster;
+        }
+
+        .parrafoBiodos {
+            color: white;
+            font-size: 1vw;  
+            font-family: 'Roboto Mono', monospace;
+            text-align: justify;
+            padding: 0.125vw;
+            width: 45%;
+            position: relative;
+            left: 5%;
+            
+        }
+    
+         .parrafoBiotres {
+            color: white;
+            font-size: 1vw;  
+            font-family: 'Roboto Mono', monospace;
+            text-align: justify;
+            padding: 0.125vw;
+            width: 45%;
+            position: relative;
+            left: 5%;
+            
+        }
+    
+
+
+
+
+
+
+
     }
-
-
     
 }
